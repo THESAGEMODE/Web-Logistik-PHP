@@ -1,0 +1,2 @@
+.report-print-heading{display:none}
+@media print{@page{size:A4;margin:12mm}.report-print-heading{display:block}.card{box-shadow:none!important;border:0!important;break-inside:avoid}.container-fluid{padding:0!important}.row{display:block}.row>div{width:100%;margin-bottom:8px}table{width:100%;border-collapse:collapse}th,td{font-size:10pt;padding:5px!important}thead{display:table-header-group}tr{break-inside:avoid}}

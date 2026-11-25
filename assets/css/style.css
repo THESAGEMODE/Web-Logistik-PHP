@@ -1,0 +1,13 @@
+:root{--navy:#0f1f3d;--aksen:#2f80ed;}
+body{background:#f4f6fa;font-size:.92rem}
+.sidebar{background:var(--navy);min-height:100vh;width:240px;flex-shrink:0}
+@media(min-width:992px){.sidebar{position:sticky;top:0;height:100vh}}
+.sidebar .nav-link{color:#b8c4dc;border-radius:.4rem;margin-bottom:2px}
+.sidebar .nav-link:hover,.sidebar .nav-link.active{background:var(--aksen);color:#fff}
+.topbar{background:#fff;border-bottom:1px solid #e5e9f0;position:sticky;top:0;z-index:10}
+.card{border:0;border-radius:.6rem;box-shadow:0 1px 3px rgba(15,31,61,.08)}
+.stat .ikon{width:42px;height:42px;border-radius:.5rem;display:grid;place-items:center;background:#e8f1fd;color:var(--aksen);font-size:1.2rem}
+.btn-primary{background:var(--aksen);border-color:var(--aksen)}
+.min-vw-0{min-width:0}
+.login-wrap{min-height:100vh;background:linear-gradient(135deg,var(--navy),#1d3b72)}
+@media print{.sidebar,.topbar,.no-print{display:none!important}body{background:#fff}}
